@@ -1,0 +1,37 @@
+palette {
+  color: #00171f;
+  color: #ffffff;
+  color: #003459;
+  color: #007ea7;
+  color: #00a8e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  body {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
