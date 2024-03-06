@@ -1,8 +1,8 @@
 function Joke (props) {
     return (
-        <div className="joke">
-            {props.setup && <h3 classname="setup">Setup: {props.setup}</h3>}
-            <p classname="punchline">Punchline: {props.punchline}</p>
+        <div className={!props.isShown && "joke joke--shown" || "joke"} onClick={props.state}>
+            {props.setup && <h3 className="setup">Setup: {props.setup}</h3>}
+            <p className="punchline">Punchline: {props.punchline}</p>
         </div>
     )
 }

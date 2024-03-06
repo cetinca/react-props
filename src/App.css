@@ -21,7 +21,7 @@ palette {
 
 
 .joke {
-  width: 15vw;
+  width: 80%;
   border-radius: 5px;
   margin: 3%;
   padding: 5%;
@@ -29,4 +29,8 @@ palette {
   color: #ffffff;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.joke--shown {
+  opacity: 0.85;
 }
